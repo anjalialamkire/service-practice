@@ -5,23 +5,23 @@ import { Observable, of, Subject } from "rxjs";
 
 @Injectable({
     providedIn :'root'
-})
+}) 
 
 
 export class TodoService{
   
     todosArr : Itodo[]=[
         {
-            todoItem:"angular",
+            todoItem:"learn Angular",
             todoId:"123"
         },
 
          {
-            todoItem:"Js",
+            todoItem:"Practice Typescript",
             todoId:"124"
          },
          {
-            todoItem:"Sass",
+            todoItem:"Revise-Sass",
             todoId:"125"
          },
     ]
